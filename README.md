@@ -5,14 +5,23 @@
 
 
 **1. What is the Fashion MNIST dataset?** 
-<br>*The Fashion MNIST dataset is a collection of small black-and-white images of clothing items like shirts, shoes, and bags. Each image is 28×28 pixels and belongs to one of 10 clothing categories. It is used to practice image classification using machine learning.*
+<br>*Fashion MNIST is a set of small black and white pictures of clothes like shirts, shoes, and bags. Each picture belongs to one group. It is used to teach a computer how to recognize clothes in pictures.*
 
 **2. Why do we normalize image pixel values before training?** 
-<br>*We normalize the images to change pixel values because this makes the model train faster and helps it learn better by keeping numbers small and consistent.*
+<br>*We make the numbers smaller so the computer can learn easier and faster. Big numbers make learning harder.*
 
 **3. List the layers used in the neural network and their functions.** 
 <br> 
-- __Flatten layer__ – Changes the image into a single list of numbers.
-- __Dense hidden layer__ – Learns patterns from the image.
-- __Dense output layer__ – Gives the prediction for each clothing category.
+- __Flatten layer__ – Turns the picture into numbers.
+- __Dense hidden layer__ – Helps the computer learn what the picture looks like.
+- __Dense output layer__ – Tells what kind of clothing the picture is.
+<br>
 
+**4. What does an epoch mean in model training?** 
+<br>*An epoch means the computer has looked at all the pictures one time.*
+
+**5. Compare the predicted label and actual label for the first test image.** 
+<br>*For the first picture, the predicted label and the actual label is the same.*
+
+**6. What could be done to improve the model’s accuracy?** 
+<br>*We can let the computer train longer, add more learning steps, or use a better way to read pictures.*
